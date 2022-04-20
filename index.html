@@ -84,15 +84,12 @@
                     playsinline
                 ></video>
                 <a-asset-item id="logoTexture" src = "Logo-Lennox.gltf"></a-asset-item>
-                <a-asset-item id="animated-asset" src="asset.gltf"></a-asset-item>
                 <img crossorigin="anonymous" id="linkedinTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostLinkedin.png?1528821333139">
                 <img crossorigin="anonymous" id="phoneTexture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCnY3tLbzqKVNUw81Kd8LE3xa2EJqr-MtjpSNWLa4lNepliuoxw">
                 <img crossorigin="anonymous" id="emailTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostEmail.png?1528821333360">
                 <img crossorigin="anonymous" id="fbTexture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/640px-Facebook_icon.svg.png">
                 <img crossorigin="anonymous" id="IGTexture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png">
                 <img crossorigin="anonymous" id="YTTexture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png">
-                <img crossorigin="anonymous" id="kaggleTexture" src="https://yt3.ggpht.com/a/AGF-l7-g-0qRAiR9KtPx199kFrUwG6rDuaWIs6AkmQ=s900-mo-c-c0xffffffff-rj-k-no">
-                <img crossorigin="anonymous" id="mediumTexture" src="https://cdn-images-1.medium.com/max/1600/1*emiGsBgJu2KHWyjluhKXQw.png">
             </a-assets>
 
             <a-marker
@@ -164,32 +161,13 @@
                 ></a-video>
             </a-marker>
 
+
             <a-entity camera="" position="" rotation="" scale="" visible=""></a-entity>
             <a-entity cursor="fuse: true; fuseTimeout: 2000" raycaster="objects: .clickable" position="0 0 -1" scale="0.01 0.01 0.01" geometry="primitive: ring" material="color: white; shader: flat" rotation="" visible="">
                 <a-animation begin="fusing" easing="ease-in" attribute="scale" fill="backwards" from="0.01 0.01 0.01" to="0.02 0.02 0.02" dur="3000"></a-animation>
                 <a-animation begin="fusing" easing="ease-in" attribute="material.color" from="white" to="orange" dur="3000"></a-animation>
             </a-entity>
-
-            <a-marker
-                id="animated-marker"
-                type="pattern"
-                preset="custom"
-                url="marker1.patt"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
-        >
-                <a-entity
-                    id="bowser-model"
-                    rotation = "-90 0 0"
-                    scale="0.00910213333420138 0.00910213333420138 0.00910213333420138"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    class="clickable"
-                    gesture-handler
-                ></a-entity>
-            </a-marker>
+            
         </a-scene>
 
         <script type="text/javascript">
