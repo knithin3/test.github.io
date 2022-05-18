@@ -1,0 +1,11 @@
+Model Information:
+* title:	AC Fan
+* source:	https://sketchfab.com/3d-models/ac-fan-276110e96e6b463cae0b1705fe1dc3e2
+* author:	Eliott (https://sketchfab.com/eliotthames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AC Fan" (https://sketchfab.com/3d-models/ac-fan-276110e96e6b463cae0b1705fe1dc3e2) by Eliott (https://sketchfab.com/eliotthames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
