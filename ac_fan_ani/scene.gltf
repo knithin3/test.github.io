@@ -1,0 +1,260 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16708,
+      "max": [
+        1.0,
+        0.7333070039749146,
+        0.3674440085887909
+      ],
+      "min": [
+        -1.0,
+        -0.7333070039749146,
+        -0.3674440085887909
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 200496,
+      "componentType": 5126,
+      "count": 16708,
+      "max": [
+        0.9999814629554749,
+        0.9999993443489075,
+        0.9999668598175049
+      ],
+      "min": [
+        -0.9999937415122986,
+        -0.9999696612358093,
+        -0.9999974966049194
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16708,
+      "max": [
+        0.9999997019767761,
+        0.9999945759773254,
+        0.9999973177909851,
+        1.0
+      ],
+      "min": [
+        -0.9999783039093018,
+        -0.999998927116394,
+        -0.9999916553497314,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16708,
+      "max": [
+        0.9982489943504333,
+        0.9982330203056335
+      ],
+      "min": [
+        0.0017509999452158809,
+        0.0017509999452158809
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 35961,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "CrazyScans (https://sketchfab.com/RandomScan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/air-vent-01-fac8c433d11748d180de89fb793bc8ba",
+      "title": "Air_Vent_01"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 143844,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 133664,
+      "byteOffset": 143844,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 400992,
+      "byteOffset": 277508,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 267328,
+      "byteOffset": 678500,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 945828,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Air_Vent_01_Material_u1_v1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Air_Vent_01_Material_u1_v1_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Air_Vent_01_Material_u1_v1_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Air_Vent_01_Material_u1_v1",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "defaultMaterial",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -1.0,
+        -1.6081226229577284e-16,
+        -2.8327693431939995e-16,
+        0.0,
+        -2.832769343193999e-16,
+        -6.123234262925839e-17,
+        1.0,
+        0.0,
+        -1.6081226229577292e-16,
+        1.0,
+        6.123234262925839e-17,
+        0.0,
+        -5.960464477539063e-07,
+        -1.5422806143306026e-08,
+        4.20539322476543e-07,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -4.371139006309477e-08,
+        0.999999999999999,
+        0.0,
+        0.0,
+        -0.999999999999999,
+        -4.371139006309477e-08,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Collada visual scene group"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Air_Vent_01"
+    },
+    {
+      "mesh": 0,
+      "name": "defaultMaterial"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
