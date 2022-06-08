@@ -68,16 +68,9 @@
           </div>
       
         </main>
-        <a-scene
-            vr-mode-ui="enabled: false;"
-            loading-screen="enabled: false;"
-            renderer="logarithmicDepthBuffer: true;"
-            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
-            id="scene"
-            embedded
-            gesture-detector
-        >
-      <!--Social media links and assets-->
+        <a-scene embedded arjs="sourceType: webcam;" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" aframe-inspector-removed-embedded="undefined">
+          <canvas class="a-canvas" data-aframe-canvas="true" width="300" height="150" renderer="logarithmicDepthBuffer: true;" ></canvas>
+        >   <!--Social media links and assets-->
             <a-assets>
                 <a-asset-item id="logoTexture" src = "Logo-Lennox.gltf"></a-asset-item>
                 <img crossorigin="anonymous" id="linkedinTexture" src="https://cdn.glitch.com/6f8b5a13-fd4d-445d-b9eb-57c735d720ea%2FPostLinkedin.png?1528821333139">
