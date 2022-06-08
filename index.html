@@ -183,39 +183,6 @@
             
             <a-assets>
                 <a-asset-item
-                    id="animated-asset"
-                    src="ac_fan_ani/asset.gltf"
-                ></a-asset-item>
-            </a-assets>
-
-            <a-marker
-                id="animated-marker"
-                type="pattern"
-                preset="custom"
-                url="pro3.patt"
-                smooth="true"
-                smoothCount="10"
-                smoothTolerance="0.01"
-                smoothThreshold="5"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA">
-
-                <a-entity
-                    id="bowser-model"
-                    scale="0.9 0.9 0.9"
-                    rotation="-90 0 0"
-                    position = "0 0 0"
-                    animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
-                    class="clickable"
-                    gesture-handler="minScale: 3; maxScale: 5"
-                ></a-entity>
-            </a-marker>
-
-            <a-assets>
-                <a-asset-item
                     id="animated-asset-ac"
                     src="asset1.gltf"
                 ></a-asset-item>
