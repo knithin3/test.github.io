@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rusted Air Conditioner
+* source:	https://sketchfab.com/3d-models/rusted-air-conditioner-b327c7ee12f348de9c0b6081e7355f2a
+* author:	zeee7 (https://sketchfab.com/zeee7)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rusted Air Conditioner" (https://sketchfab.com/3d-models/rusted-air-conditioner-b327c7ee12f348de9c0b6081e7355f2a) by zeee7 (https://sketchfab.com/zeee7) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
