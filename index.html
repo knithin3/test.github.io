@@ -80,7 +80,7 @@
                 <img crossorigin="anonymous" id="IGTexture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png">
                 <img crossorigin="anonymous" id="YTTexture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png">
             </a-assets>
-
+<!--contact us assets-->
             <a-marker
                 type="pattern"
                 preset="custom"
@@ -180,11 +180,11 @@
                     gesture-handler
                 ></a-video>
             </a-marker>
-
+<!--outdoor model assets-->
             <a-assets>
                 <a-asset-item
                     id="animated-asset-ac"
-                    src="asset1.gltf"
+                    src="rusted_air_conditioner/scene.gltf"
                 ></a-asset-item>
             </a-assets>
 
@@ -204,9 +204,9 @@
 
                 <a-entity
                     id="ac-model"
-                    scale="0.7 0.7 0.7"
+                    scale="0.0035 0.0035 0.0035"
                     rotation="-90 0 0"
-                    position = "0 0 0.5"
+                    position = "0 0 0"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset-ac"
                     class="clickable"
