@@ -1,0 +1,11 @@
+Model Information:
+* title:	air conditioning system
+* source:	https://sketchfab.com/3d-models/air-conditioning-system-d1367b53a8f541b39f6fbd8ce7bd4b48
+* author:	a1i_9 (https://sketchfab.com/a1i_9)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "air conditioning system" (https://sketchfab.com/3d-models/air-conditioning-system-d1367b53a8f541b39f6fbd8ce7bd4b48) by a1i_9 (https://sketchfab.com/a1i_9) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
