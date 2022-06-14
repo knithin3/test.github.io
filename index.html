@@ -184,7 +184,7 @@
             <a-assets>
                 <a-asset-item
                     id="animated-asset-ac"
-                    src="rusted_air_conditioner/scene.gltf"
+                    src="ac_fan/scene.gltf"
                 ></a-asset-item>
             </a-assets>
 
@@ -205,6 +205,39 @@
                 <a-entity
                     id="ac-model"
                     scale="0.0035 0.0035 0.0035"
+                    rotation="-90 0 0"
+                    position = "0 0 0"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset-ac"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
+            </a-marker>
+  <!--LOP model assets-->
+            <a-assets>
+                <a-asset-item
+                    id="animated-asset-ac"
+                    src="LOP/asset.gltf"
+                ></a-asset-item>
+            </a-assets>
+
+            <a-marker
+                id="animated-marker-ac"
+                type="pattern"
+                preset="custom"
+                url="pro3.patt"
+                smooth="true"
+                smoothCount="10"
+                smoothTolerance="0.01"
+                smoothThreshold="5"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerB">
+
+                <a-entity
+                    id="ac-model"
+                    scale="1.5 1.5 1.5"
                     rotation="-90 0 0"
                     position = "0 0 0"
                     animation-mixer="loop: repeat"
