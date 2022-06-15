@@ -100,7 +100,7 @@
                 <a-link class="clickable" href="https://www.linkedin.com/company/lennox_india_technology_centre/mycompany/" title="" image="" position="0 0 -.333" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64"
                     material="shader:portal;side:double;visible:false" link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#linkedinTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                      <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="335 360 360" ease="linear"></a-animation>
+                      
                     </a-box>
                 </a-link>
 
@@ -108,35 +108,35 @@
 
                 <a-link class="clickable" href="tel:+9104466257001" title="" image="" position="0 0 0.5" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64" material="shader:portal;side:double;visible:false" link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#phoneTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                      <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="335 360 360" ease="linear"></a-animation>
+                      
                     </a-box>
                 </a-link>
 
                 <a-link class="clickable" href="mailto:nithin.k@lennoxintl.com" title="" image="" position="-1 0 0.5" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64" material="shader:portal;side:double;visible:false"
                     link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#emailTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                        <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="335 360 360" ease="linear"></a-animation>
+                        
                     </a-box>
                 </a-link>
 
                 <a-link class="clickable" href="https://www.facebook.com/LennoxIndiaTechnologyCentrePvtLtd/" title="" image="" position="1 0 -.333" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64" material="shader:portal;side:double;visible:false"
                     link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#fbTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                        <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="335 360 360" ease="linear"></a-animation>
+                        
                     </a-box>
                 </a-link>
 
                 <a-link class="clickable" href="https://www.instagram.com/lennox_ind/?hl=en" title="" image="" position="1 0 0.5" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64" material="shader:portal;side:double;visible:false"
                     link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#IGTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                        <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="0 360 0" ease="linear"></a-animation>
+                        
                     </a-box>
                 </a-link>
 
                 <a-link class="clickable" href="https://www.youtube.com/channel/UCfuTUCHcXuKzruspkUVlD0g" title="" image="" position="-1 0 -.333" rotation="-67.42 0 0" scale="0.6 0.6 0.6" geometry="primitive:circle;segments:64" material="shader:portal;side:double;visible:false"
                     link="title:.">
                     <a-box scale="0.8 0.8 1.05" material="src:#YTTexture" position="-0.09854454977856898 -0.0036935886841299587 -0.2155814669584256" radius="2" segments-height="84" rotation="-23.450000000000003 0 0" geometry="">
-                        <a-animation attribute="rotation" begin="mouseenter" loop="true" end="mouseleave" dur="2000" fill="backwards" to="335 360 360" ease="linear"></a-animation>
+                        
                     </a-box>
                 </a-link>
             </a-marker>
@@ -249,9 +249,7 @@
 
 
             <a-entity camera="" position="" rotation="" scale="" visible=""></a-entity>
-            <a-entity cursor="fuse: true; fuseTimeout: 2000" raycaster="objects: .clickable" position="0 0 -1" scale="0.01 0.01 0.01" geometry="primitive: ring" material="color: white; shader: flat" rotation="" visible="">
-                <a-animation begin="fusing" easing="ease-in" attribute="scale" fill="backwards" from="0.01 0.01 0.01" to="0.02 0.02 0.02" dur="3000"></a-animation>
-                <a-animation begin="fusing" easing="ease-in" attribute="material.color" from="white" to="orange" dur="3000"></a-animation>
+            <a-entity cursor="fuse: true; fuseTimeout: 1000" raycaster="objects: .clickable" position="0 0 -1" scale="0.01 0.01 0.01" geometry="primitive: ring" material="color: white; shader: flat" rotation="" visible="">
             </a-entity>
 
         </a-scene>
